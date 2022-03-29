@@ -1,0 +1,14 @@
+{
+  "name": "color picker",
+  "description": "A color picker extension",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["activeTabs", "scripting", "tabs"],
+  "action": {
+    "default_title": "Click Me",
+    "default_popup": "popup.html"
+  }
+}

@@ -1,0 +1,20 @@
+body {
+  background-color: whitesmoke;
+}
+.wrapper {
+  width: 300px;
+  text-align: center;
+}
+.wrapper h2 {
+  color: rgb(0, 60, 255);
+}
+.changeColorBtn {
+  width: 200px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #facc15;
+  color: black;
+  cursor: pointer;
+}
